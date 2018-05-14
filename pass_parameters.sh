@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+func()
+{
+
+echo "we are in the function now"
+echo $0
+echo $1
+echo $2
+echo "we leave the function"
+exit 0
+}
+
+func 123 "abc"
